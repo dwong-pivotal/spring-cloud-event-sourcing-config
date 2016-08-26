@@ -5,6 +5,9 @@ spring:
   neo4j:
     host: ${SPRING_NEO4J_HOST:192.168.99.101}
     port: ${SPRING_NEO4J_PORT:7474}
+    uri: http://inventorydb.sb10.stations.graphenedb.com:24789/db/data/
+    username: inventorydb
+    password: xr4wDBzwc9D9Kq7vmRCN
 ---
 spring:
   profiles: development
